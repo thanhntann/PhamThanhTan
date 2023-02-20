@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <meta charset="utF-8">
+    <meta name="description" content="Fre Web tutorials">
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+    <meta name="author" content="Hege Refsnes">
+    <title>Sample HTML Page</title>
+</head>
+
+<body>
+    <div class="Document1" <p>
+        One particular book which is recommended reading is
+        <U>The Street Lamwyer by John Grisham.</U> This book is about lawyer who begins re- evaluating his priorites in life when a bad incident occurs within his law finrm.
+        <u>The Street Lawyer </u>is a <b><i>geat</i></b>book. It is <u><i>well written</i></u>
+        </p>and <u><i>inteeresting</i></u>.Other books by <u>John Grisham</u>include <u>The Filrm, The Pelican Brief.</u>,and <u>The Client</u>
+        <hr>
+        <p align="">
+            <h3>Hight Flying</h3>
+            <p>I gazed down into valleys,</p>
+            <p>At the snow caps white as cream,</p>
+            <p>Then soared above the puffy clouds---</p>
+            <p>Too bad it was a dream!</p>
+        </p>
+        <div align="content" <h3>Hight Flying</h3>
+            <p>I gazed down into valleys,</p>
+            <p>At the snow caps white as cream,</p>
+            <p>Then soared above the puffy clouds--</p>
+            <p>Too bad it was a dream!</p>
+            </p>
+            <h3>Hight Flying</h3>
+            <p>I gazed down into valleys,</p>
+            <p>At the snow caps white as cream,</p>
+            <p>Then soared above the puffy clouds--</p>
+            < p>Too bad it was a dream!</p>
+                </p>
+</body>
+
+</head>
+
+</html>
