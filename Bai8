@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: auto;
+        }
+        img {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <img src="/Image/MatCuoi.png" alt="">
+    <map name="planemap">
+        <area shape="circle" coords="245,214,298,298" href="/Hinh/MatCuoi.png" alt="">
+    </map>
+</body>
+</html>
