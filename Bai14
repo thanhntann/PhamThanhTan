@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    form{
+        position: relative;
+        margin: auto;
+        width: 75%;
+        top: -35px;
+    }
+    
+</style>
+<body>
+     <h1>Contact Us</h1>
+            <p>Use the following form to send a messeage to Example Cafe</p>
+            <p>Your email
+                <form><input type="text" name="txtName" value=""></form></p>
+            <p>Message 
+                <form><textarea cols="80" rows="10"></textarea></form>
+            </p>
+            
+            <p>How did you hear of us?
+                <form>
+                    <select size="1">
+                        <option value="Google">Google</option>
+                        <option value="CocCoc">CocCoc</option>
+                        <option value="Chrome">Chrome</option>
+                    </select>
+                </form>   
+            </p>
+            <p>Newsletter
+                <form>
+                    <input type="checkbox" />
+                    Ensure this box is checked if you would like to receive email updates
+                </form>   
+            </p>
+            <p><input type="button" value="Send message" size="10"> </p>
+</body>
+</html>
