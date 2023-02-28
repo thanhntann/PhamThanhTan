@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 input elements</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>Name:<br>
+            <input type="text" name="txtName" value="" size="20" maxlength="20">
+        </p>
+        <p>Telephone number:<br>
+            <input type="text" name="txtTel" value=""  size="20" maxlength="20">
+        </p>
+        <p>Email:<br>
+            <input type="text" name="txtEmail" value="" size="20" maxlength="20">
+        </p>
+        <p>Favorite Color:<br>
+            <input type="color" id="favorite-color" name="favorite-color"><br>        
+        </p>
+        <p>Date of Birth:<br>
+            <input type="date" id="date-of-birth" name="date-of-birth"><br>
+        </p>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+</body>
+</html>
