@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Liên hệ</title>
+</head>
+<body>
+	<h1>Liên hệ</h1>
+	<form action="process_contact_form.php" method="POST">
+		<label for="name">Họ và tên:</label><br>
+		<input type="text" id="name" name="name"><br>
+
+		<label for="email">Email:</label><br>
+		<input type="text" id="email" name="email"><br>
+
+		<label for="subject">Chủ đề:</label><br>
+		<input type="text" id="subject" name="subject"><br>
+
+		<label for="message">Nội dung:</label><br>
+		<textarea id="message" name="message"></textarea><br>
+
+		<input type="submit" value="Gửi">
+		<input type="reset" value="Xóa">
+	</form>
+</body>
+</html>
