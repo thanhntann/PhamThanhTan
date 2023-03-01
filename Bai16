@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Travel reservation form</h1>
+    <form action="" method="get">
+        <td><label>Full namme*:<br>    
+        </label></td>
+        <input type="text" name="name" placeholder="FirstName LastName">
+        <br><label>Email address*:<br></label>
+        <input type="text" name="address" placeholder="EMAIL_ADDRESS">
+        <br><label>Select Tour Package*:<br></label>
+        <select for="tour-package" size="1">
+            <option>Goa</option>
+            <option>CocCoc</option>
+            <option>Chrome</option>
+        </select>
+        <br><label>Arrial date*:</label>
+        <input type="text" placeholder="m/d/y">
+        <br><label>What would you want to avail?*</label>
+        <br><label>
+            Boarding 
+            <input type="checkbox">
+        </label>
+        <br><label>
+            Fooding 
+            <input type="checkbox">
+        </label>
+        <br><label>
+            Sight seeing
+            <input type="checkbox">
+        </label>
+        <br><label>Discout Coupon code:</label>
+        <input type="text" placeholder="UNKNOWN_TYPE">
+        <br><label>Terms and conditions*</label>
+        <br><input type="radio" value="I agree">I agree
+        <input type="radio" value="I disagree">I disagree
+        <br><input type="button" value="Complete reservation">
+
+    </form>
+</body>
+
+</html>
