@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <div>
+        <p>.mp4</p>
+        <video poster="tandeptrai.mp4" controls>
+            <source src="/tandeptrai.mp4" type='video/mp4;
+            codecs="avc1.42E01E,mp4a.40.2"' />
+        </video>
+    </div>
+    <div>
+        <p>.webm</p>
+        <video poster="tanday.mp4" controls>
+            <source src="\tanday.mp4" type='video/webm;
+            codecs="vp8,vorbis"' />
+        </video>
+    </div>
+    <div>
+        <p>.ogg</p>
+        <video poster="tanne.mp4" controls>
+            <source src="/tanne.mp4" type='video/ogg;
+            codecs="theora,vorbis"' />
+        </video>
+    </div>
+</body>
+</html>
