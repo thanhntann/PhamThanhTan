@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<style>
+    body {
+        background-color: rgb(252, 188, 111);
+    }
+    
+    p.Send {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h1>Survey Form</h1>
+    <p>If you are interested on purchasing one or more of our products, before ordering please complete some or all of the follwing survey for our marketing deparment.<br> Answering any question is optional, and all information will be kept striclty confidential.
+        Thank you very much for your time!
+    </p>
+    <ol type="1" start="1">
+        <li>
+            <label>What is your name?</label>
+            <br><input type="text">
+        </li>
+        <li>
+            <label>What is your date of birth?</label>
+            <br>
+            <label>Month:</label>
+            <select size="1">
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <label>Date:</label>
+            <select size="1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <label>Year:</label>
+            <input type="text" size="3">
+        </li>
+        <li>
+            <label>What is your mailing address(if you would like to have a hard copy of our catalog sent to you)?</label>
+            <br>
+            <td><textarea name="txtBody" id="address" cols="50" rows="4" tabindex="2" onclick="code">Numer/P.O. Box/route:
+Street/Avenue/Road: 
+City:
+State/Zip:</textarea>
+            </td>
+        </li>
+        <li>
+            <label>What is your email address?</label>
+            <br><input type="text">
+        </li>
+        <li>
+            <label>Have you viewed our online product catalog?</label>
+            <br><input type="radio">Yes
+            <input type="radio">No
+        </li>
+        <li>
+            <label>If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (Check all that apply.)</label>
+            <br><input type="checkbox">VCR
+            <br><input type="checkbox">BigScreen TV
+            <br><input type="checkbox">Audio Equipment
+            <br><input type="checkbox">Video Equipment
+            <br><input type="checkbox">Camera Equipment
+            <br><input type="checkbox">Other <input type="text" value="Please List">
+        </li>
+        <li>
+            <label>Do you have any questions, comments or suggestions before proceeding to the Order Form?</label>
+            <br><textarea name="txtBody" id="input" cols="100" rows="10" tabindex="2" onclick="code">Your Input:</textarea>
+        </li>
+    </ol>
+    <p class="Send">
+        <input type="button" value="Send Form">
+        <input type="button" value="Clear Form">
+    </p>
+    
+</body>
