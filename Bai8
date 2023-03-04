@@ -17,9 +17,9 @@
     </style>
 </head>
 <body>
-    <img src="/Image/MatCuoi.png" alt="">
+    <img src="/tandeptrai.png" alt="">
     <map name="planemap">
-        <area shape="circle" coords="245,214,298,298" href="/Hinh/MatCuoi.png" alt="">
+        <area shape="circle" coords="245,214,298,298" href="/tandeptrai.png" alt="">
     </map>
 </body>
 </html>
